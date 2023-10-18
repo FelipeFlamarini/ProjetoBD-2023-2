@@ -19,9 +19,9 @@ ORDER BY pessoa.nome;
 
 -- nome, matrícula, salário base e cidade de moradia de tods os funcionários que ganham menos que 8000
 SELECT pessoa.nome AS pessoa, funcionario.matricula, funcionario.salario_base, cidade.nome as cidade FROM pessoa
-LEFT JOIN funcionario ON funcionario.pessoa_id = pessoa.id
+JOIN funcionario ON funcionario.pessoa_id = pessoa.id
 LEFT JOIN cidade ON cidade.codigo = pessoa.cidade_codigo
-WHERE funcionario.salario_base < 8000
+WHERE funcionario.salario_base > 8000
 ORDER BY pessoa.nome;
 
 -- inserindo Felipe Flamarini em funcionários
