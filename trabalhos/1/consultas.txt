@@ -1,0 +1,334 @@
+  codigo |     nome
+--------+--------------
+      1 | Três Lagoas
+      2 | Campo Grande
+      3 | Corumbá
+      4 | Água Clara
+      5 | Dourados
+      6 | Ponta Porã
+      7 | Andradina
+      8 | São Paulo
+(8 rows)
+
+     nome     | codigo
+--------------+--------
+ Três Lagoas  |      1
+ Campo Grande |      2
+ Corumbá      |      3
+ Água Clara   |      4
+ Dourados     |      5
+ Ponta Porã   |      6
+ Andradina    |      7
+ São Paulo    |      8
+(8 rows)
+
+    codigo    |                         nome                          |                                                                                                                                                                                                                           descricao
+--------------+-------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ IMUNO        | Alergia e Imunologia                                  | diagnóstico e tratamento das doenças alérgicas e do sistema imunológico.
+ ANEST        | Anestesiologia                                        | área da Medicina que envolve o tratamento da dor, a hipnose e o manejo intensivo do paciente sob intervenção cirúrgica ou procedimentos.
+ ANGIO        | Angiologia                                            | é a área da medicina que estuda o tratamento das doenças do aparelho circulatório.
+ ONCO         | Cancerologia (oncologia)                              | é a especialidade que trata dos tumores malignos ou câncer.
+ CARDIO       | Cardiologia                                           | aborda as doenças relacionadas com o coração e sistema vascular.
+ CARDIO_CIR   | Cirurgia Cardiovascular                               | tratamento cirúrgico de doenças do coração.
+ ORTO_CIR     | Cirurgia da Mão                                       | sub-especialidade da Ortopedia que aborda os problemas de saúde relacionados as mãos.
+ GASTO_CIR    | Cirurgia do Aparelho Digestivo                        | tratamento clínico e cirúrgico dos órgãos do aparelho digestório, como o esôfago, estômago, intestinos, fígado e vias biliares, e pâncreas.
+ GERAL_CIR    | Cirurgia Geral                                        | é a área que engloba todas as áreas cirúrgicas, sendo também subdividida.
+ PEDIAT_CIR   | Cirurgia Pediátrica                                   | cirurgia geral em crianças.
+ PLAT_CIR     | Cirurgia Plástica                                     | correção das deformidades, malformações ou lesões que comprometem funções dos órgãos através de cirurgia de caráter reparador ou cirurgias estéticas.
+ TORA_CIR     | Cirurgia Torácica                                     | atua na cirurgia da caixa torácica e vias aéreas.
+ VASCULAR_CIR | Cirurgia Vascular                                     | tratamento das veias e artérias, através de cirurgia, procedimentos endovasculares ou tratamentos clínicos.
+ CLINICA      | Clínica Médica (Medicina interna)                     | é a área que engloba todas as áreas não cirúrgicas, sendo subdividida em várias outras especialidades.
+ DERMATO      | Dermatologia                                          | é o estudo da pele anexos (pelos, glândulas), tratamento e prevenção das as doenças.
+ ENDO         | Endocrinologia e Metabologia                          | é a área da Medicina responsável pelo cuidados aos hormônios, crescimento e glândulas como adrenal, tireoide, hipófise, pâncreas endócrino e outros.
+ GASTRO       | Gastroenterologia                                     | é o estudo, diagnóstico, tratamento e prevenção de doenças relacionadas ao aparelho digestivo, desde erros inatos do metabolismo, doença do trato gastrointestinal, doenças do fígado e cânceres.
+ GERIAT       | Geriatria                                             | é a subespecialidade médica que cuida dos idosos e articula seu tratamento com outras especialidades.
+ GINECO       | Ginecologia e obstetrícia                             | é a especialidade médica que aborda de forma integral a mulher. Trata desde as doenças infecciosas sexuais, gestação, alterações hormonais, reprodução.
+ HEMATO       | Hematologia e Hemoterapia                             | é o estudo dos elementos figurados do sangue (hemácias, leucócitos, plaquetas) e da produção desses elementos nos órgãos hematopoiéticos (medula óssea, baço, linfonódos), além de tratar das anemias, linfomas, leucemias e outros cânceres, hemofilia e doenças da coagulação
+ INFECTO      | Infectologia                                          | prevenção, diagnóstico e tratamentos de infecções causadas por vírus, bactérias, fungos e parasitas (helmINTOlogia, protozoologia, entomologia e artropodologia).
+ MATO         | Mastologia                                            | subespecialidade que trata da mama, suas doenças, alterações benignas e estéticas.
+ FAMILIA      | Medicina de Família e Comunidade                      | é a área da medicina que trata do indivíduo em seu ambiente familiar e comunitário, com foco na prevenção e tratamento das doenças mais comuns, sendo o articulador do encaminhamento aos especialistas quando necessária abordagem mais aprofundada das doenças.
+ EMERGENCIA   | Medicina de Emergência                                | especialidade que atua no cuidado de pacientes com doenças ou lesões que requerem atenção médica imediata, atuando nas Emergências, pronto-atendimentos e serviços pré-hospitalares.
+ TRABALHO     | Medicina do Trabalho                                  | trata do processo de trabalho e da relação deste com as doenças. Atua desde a prevenção dos agravos, a minimização dos efeitos destes e do tratamento das doenças do trabalho quando já estabelecidas.
+ ESPORTE      | Medicina Esportiva                                    | abordagem do atleta de uma forma global, desde a fisiologia do exercício à prevenção de lesões, passando pelo controle de treino e resolução de problemas de saúde que envolvam o praticante do exercício físico.
+ LEGAL        | Medicina Legal e Perícia Médica (ou medicina forense) | é a especialidade que aplica os conhecimentos médicos aos interesses da Justiça, na elaboração de leis e na adequada caracterização dos fenômenos biológicos que possam interessar às autoridades no sentido da aplicação das leis. Assim a Medicina Legal caracteriza a lesão corporal, a morte (sua causa, o momento em que ocorreu, que agente a produziu), a embriaguez pelo álcool ou pelas demais drogas, a violência sexual de qualquer natureza, etc.
+ NUCLEAR      | Medicina Nuclear                                      | é o estudo imaginológico ou terapia pelo uso de radiofármacos.
+ NEFRO        | Nefrologia                                            | é a parte da medicina que estuda e trata clinicamente as doenças do rim, como insuficiência renal.
+ NEURO_CIR    | Neurocirurgia                                         | atua no tratamento de doenças do sistema nervoso central e periférico passíveis de abordagem cirúrgica.
+ NEURO        | Neurologia                                            | é a parte da medicina que estuda e trata o sistema nervoso.
+ NUTRO        | Nutrologia                                            | diagnóstico, prevenção e tratamento de doenças do comportamento alimentar.
+ OBSTET       | Obstetrícia                                           | é a área da medicina atrelada à Ginecologia que cuida das mulheres em relação ao processo da gestação (pré, pós-parto, puerpério, gestação e outros).
+ OLFTALMO     | Oftalmologia                                          | é a parte da medicina que estuda e trata os distúrbios dos olhos.
+ ORTO         | Ortopedia e Traumatologia                             | é a parte da medicina que estuda e trata as doenças do sistema osteomuscular, locomoção, crescimento, deformidades e as fraturas.
+ OTORRINO     | Otorrinolaringologia                                  | é a parte da medicina que estuda e trata as doenças da orelha, nariz, seios paranasais, faringe e laringe.
+ PEDIAT       | Pediatria                                             | é a parte da medicina que estuda e trata crianças.
+ PNEUMO       | Pneumologia                                           | é a parte da medicina que estuda e trata o sistema respiratório.
+ PSIQ         | Psiquiatria                                           | é a parte da medicina que previne e trata ao transtornos mentais e comportamentais.
+ RADIO        | Radiologia e Diagnóstico por Imagem                   | realização e interpretação de exames de imagem como raio-X, ultrassonografia, Doppler colorido, Tomografia Computadorizada, Ressonância Magnética, entre outros.
+ REUMATO      | Reumatologia                                          | é a especialidade médica que trata das doenças do tecido conjuntivo, articulações e doenças autoimunes. Diferente do senso comum o reumatologista não trata somente reumatismo.
+ URO          | Urologia                                              | é a parte da medicina que estuda e trata cirurgicamente e clinicamente os problemas do sistema urinário e do sistema reprodutor masculino e feminino.
+(42 rows)
+
+    codigo    |                         nome
+--------------+-------------------------------------------------------
+ ANEST        | Anestesiologia
+ ANGIO        | Angiologia
+ CARDIO       | Cardiologia
+ CARDIO_CIR   | Cirurgia Cardiovascular
+ CLINICA      | Clínica Médica (Medicina interna)
+ DERMATO      | Dermatologia
+ EMERGENCIA   | Medicina de Emergência
+ ENDO         | Endocrinologia e Metabologia
+ ESPORTE      | Medicina Esportiva
+ FAMILIA      | Medicina de Família e Comunidade
+ GASTO_CIR    | Cirurgia do Aparelho Digestivo
+ GASTRO       | Gastroenterologia
+ GERAL_CIR    | Cirurgia Geral
+ GERIAT       | Geriatria
+ GINECO       | Ginecologia e obstetrícia
+ HEMATO       | Hematologia e Hemoterapia
+ IMUNO        | Alergia e Imunologia
+ INFECTO      | Infectologia
+ LEGAL        | Medicina Legal e Perícia Médica (ou medicina forense)
+ MATO         | Mastologia
+ NEFRO        | Nefrologia
+ NEURO        | Neurologia
+ NEURO_CIR    | Neurocirurgia
+ NUCLEAR      | Medicina Nuclear
+ NUTRO        | Nutrologia
+ OBSTET       | Obstetrícia
+ OLFTALMO     | Oftalmologia
+ ONCO         | Cancerologia (oncologia)
+ ORTO         | Ortopedia e Traumatologia
+ ORTO_CIR     | Cirurgia da Mão
+ OTORRINO     | Otorrinolaringologia
+ PEDIAT       | Pediatria
+ PEDIAT_CIR   | Cirurgia Pediátrica
+ PLAT_CIR     | Cirurgia Plástica
+ PNEUMO       | Pneumologia
+ PSIQ         | Psiquiatria
+ RADIO        | Radiologia e Diagnóstico por Imagem
+ REUMATO      | Reumatologia
+ TORA_CIR     | Cirurgia Torácica
+ TRABALHO     | Medicina do Trabalho
+ URO          | Urologia
+ VASCULAR_CIR | Cirurgia Vascular
+(42 rows)
+
+ id | sexo |                 nome
+----+------+---------------------------------------
+ 28 | F    | ANA CARLA MARIA MARTINS
+  0 | M    | ARTHUR RICARDO SANT ANA DE SOUZA
+  1 | M    | BRUNO LOURENÇO PEREIRA
+  2 | F    | CAMILA EDUARDA RUIS FONSECA BALDO
+  3 | M    | CARLOS EDUARDO DE CAMPOS RODRIGUES
+ 27 | M    | CARLOS EDUARDO SANTOS MARTINS
+  4 | M    | CAYO HENRIQUE MERCADANTE VEIGA
+  5 | M    | CLEITON DALASTRA
+  6 | M    | DAVI FRANCA DE MELO
+  7 | M    | DIRCEU ALVES NETO
+  8 | M    | EMERSON ALVES FRANÇA HAMBRUCK CHECATO
+  9 | M    | FELIPE FLAMARINI
+ 10 | F    | FRANCIELE ALMEIDA DE ARAUJO
+ 11 | M    | GABRIEL MARCHI CAMPOS
+ 12 | F    | ISABELLE FIRMINO RANCAN
+ 13 | M    | KAUAN OLIVAL LOPES
+ 26 | F    | MARIA CLARA DE MELO
+ 14 | M    | MATHEUS DA SILVA PAULA
+ 15 | M    | NATHAN DA SILVA BRITO
+ 16 | M    | NICHOLAS RICARDO SILVA ARAUJO
+ 17 | M    | PATRICK CAUÃ GONÇALVES DIAS
+ 29 | M    | PAULO DE TARSO ARAUJO
+ 18 | M    | PEDRO SAMUEL SOARES SIMÃO
+ 19 | M    | RAI FERNANDES DOS SANTOS
+ 20 | F    | RARIANE DOS SANTOS PEREIRA
+ 21 | M    | SAMUEL CARLOS SANTOS SILVA
+ 22 | F    | TALITA DOS SANTOS CABREIRA
+ 23 | F    | TAYNÁ ELLEN DE JESUS SOUZA
+ 24 | M    | UELTON OLIVEIRA DIAS
+ 25 | M    | VINÍCIUS DE OLIVEIRA MEDINA
+(30 rows)
+
+ id | sexo |                 nome
+----+------+---------------------------------------
+ 28 | F    | ANA CARLA MARIA MARTINS
+  2 | F    | CAMILA EDUARDA RUIS FONSECA BALDO
+ 10 | F    | FRANCIELE ALMEIDA DE ARAUJO
+ 12 | F    | ISABELLE FIRMINO RANCAN
+ 26 | F    | MARIA CLARA DE MELO
+ 20 | F    | RARIANE DOS SANTOS PEREIRA
+ 22 | F    | TALITA DOS SANTOS CABREIRA
+ 23 | F    | TAYNÁ ELLEN DE JESUS SOUZA
+  0 | M    | ARTHUR RICARDO SANT ANA DE SOUZA
+  1 | M    | BRUNO LOURENÇO PEREIRA
+  3 | M    | CARLOS EDUARDO DE CAMPOS RODRIGUES
+ 27 | M    | CARLOS EDUARDO SANTOS MARTINS
+  4 | M    | CAYO HENRIQUE MERCADANTE VEIGA
+  5 | M    | CLEITON DALASTRA
+  6 | M    | DAVI FRANCA DE MELO
+  7 | M    | DIRCEU ALVES NETO
+  8 | M    | EMERSON ALVES FRANÇA HAMBRUCK CHECATO
+  9 | M    | FELIPE FLAMARINI
+ 11 | M    | GABRIEL MARCHI CAMPOS
+ 13 | M    | KAUAN OLIVAL LOPES
+ 14 | M    | MATHEUS DA SILVA PAULA
+ 15 | M    | NATHAN DA SILVA BRITO
+ 16 | M    | NICHOLAS RICARDO SILVA ARAUJO
+ 17 | M    | PATRICK CAUÃ GONÇALVES DIAS
+ 29 | M    | PAULO DE TARSO ARAUJO
+ 18 | M    | PEDRO SAMUEL SOARES SIMÃO
+ 19 | M    | RAI FERNANDES DOS SANTOS
+ 21 | M    | SAMUEL CARLOS SANTOS SILVA
+ 24 | M    | UELTON OLIVEIRA DIAS
+ 25 | M    | VINÍCIUS DE OLIVEIRA MEDINA
+(30 rows)
+
+ id | sexo |                 nome
+----+------+---------------------------------------
+  0 | M    | ARTHUR RICARDO SANT ANA DE SOUZA
+  1 | M    | BRUNO LOURENÇO PEREIRA
+  3 | M    | CARLOS EDUARDO DE CAMPOS RODRIGUES
+ 27 | M    | CARLOS EDUARDO SANTOS MARTINS
+  4 | M    | CAYO HENRIQUE MERCADANTE VEIGA
+  5 | M    | CLEITON DALASTRA
+  6 | M    | DAVI FRANCA DE MELO
+  7 | M    | DIRCEU ALVES NETO
+  8 | M    | EMERSON ALVES FRANÇA HAMBRUCK CHECATO
+  9 | M    | FELIPE FLAMARINI
+ 11 | M    | GABRIEL MARCHI CAMPOS
+ 13 | M    | KAUAN OLIVAL LOPES
+ 14 | M    | MATHEUS DA SILVA PAULA
+ 15 | M    | NATHAN DA SILVA BRITO
+ 16 | M    | NICHOLAS RICARDO SILVA ARAUJO
+ 17 | M    | PATRICK CAUÃ GONÇALVES DIAS
+ 29 | M    | PAULO DE TARSO ARAUJO
+ 18 | M    | PEDRO SAMUEL SOARES SIMÃO
+ 19 | M    | RAI FERNANDES DOS SANTOS
+ 21 | M    | SAMUEL CARLOS SANTOS SILVA
+ 24 | M    | UELTON OLIVEIRA DIAS
+ 25 | M    | VINÍCIUS DE OLIVEIRA MEDINA
+ 28 | F    | ANA CARLA MARIA MARTINS
+  2 | F    | CAMILA EDUARDA RUIS FONSECA BALDO
+ 10 | F    | FRANCIELE ALMEIDA DE ARAUJO
+ 12 | F    | ISABELLE FIRMINO RANCAN
+ 26 | F    | MARIA CLARA DE MELO
+ 20 | F    | RARIANE DOS SANTOS PEREIRA
+ 22 | F    | TALITA DOS SANTOS CABREIRA
+ 23 | F    | TAYNÁ ELLEN DE JESUS SOUZA
+(30 rows)
+
+ id |                 nome                  | codigo |     nome
+----+---------------------------------------+--------+--------------
+ 28 | ANA CARLA MARIA MARTINS               |      1 | Três Lagoas
+  0 | ARTHUR RICARDO SANT ANA DE SOUZA      |      1 | Três Lagoas
+  1 | BRUNO LOURENÇO PEREIRA                |      2 | Campo Grande
+  2 | CAMILA EDUARDA RUIS FONSECA BALDO     |      5 | Dourados
+  3 | CARLOS EDUARDO DE CAMPOS RODRIGUES    |      1 | Três Lagoas
+ 27 | CARLOS EDUARDO SANTOS MARTINS         |      1 | Três Lagoas
+  4 | CAYO HENRIQUE MERCADANTE VEIGA        |      4 | Água Clara
+  5 | CLEITON DALASTRA                      |      7 | Andradina
+  6 | DAVI FRANCA DE MELO                   |      1 | Três Lagoas
+  7 | DIRCEU ALVES NETO                     |      1 | Três Lagoas
+  8 | EMERSON ALVES FRANÇA HAMBRUCK CHECATO |      1 | Três Lagoas
+ 10 | FRANCIELE ALMEIDA DE ARAUJO           |      8 | São Paulo
+ 11 | GABRIEL MARCHI CAMPOS                 |      1 | Três Lagoas
+ 12 | ISABELLE FIRMINO RANCAN               |      1 | Três Lagoas
+ 13 | KAUAN OLIVAL LOPES                    |      2 | Campo Grande
+ 26 | MARIA CLARA DE MELO                   |      1 | Três Lagoas
+ 14 | MATHEUS DA SILVA PAULA                |      1 | Três Lagoas
+ 15 | NATHAN DA SILVA BRITO                 |      2 | Campo Grande
+ 16 | NICHOLAS RICARDO SILVA ARAUJO         |      1 | Três Lagoas
+ 29 | PAULO DE TARSO ARAUJO                 |      8 | São Paulo
+ 18 | PEDRO SAMUEL SOARES SIMÃO             |      1 | Três Lagoas
+ 19 | RAI FERNANDES DOS SANTOS              |      1 | Três Lagoas
+ 20 | RARIANE DOS SANTOS PEREIRA            |      1 | Três Lagoas
+ 21 | SAMUEL CARLOS SANTOS SILVA            |      1 | Três Lagoas
+ 22 | TALITA DOS SANTOS CABREIRA            |      1 | Três Lagoas
+ 23 | TAYNÁ ELLEN DE JESUS SOUZA            |      1 | Três Lagoas
+ 24 | UELTON OLIVEIRA DIAS                  |      1 | Três Lagoas
+ 25 | VINÍCIUS DE OLIVEIRA MEDINA           |      8 | São Paulo
+(28 rows)
+
+ id |                nome                | matricula | salario_base
+----+------------------------------------+-----------+--------------
+ 10 | FRANCIELE ALMEIDA DE ARAUJO        | 28100     |      3500.98
+  3 | CARLOS EDUARDO DE CAMPOS RODRIGUES | 4040      |      5000.00
+  5 | CLEITON DALASTRA                   | 007       |      7999.98
+ 12 | ISABELLE FIRMINO RANCAN            | 25289     |      7999.98
+  6 | DAVI FRANCA DE MELO                | 452040    |      8000.00
+  1 | BRUNO LOURENÇO PEREIRA             | 2525      |     13000.00
+ 22 | TALITA DOS SANTOS CABREIRA         | 25281     |     15300.98
+(7 rows)
+
+ id |            nome             |   crm
+----+-----------------------------+---------
+ 12 | ISABELLE FIRMINO RANCAN     | 1010/MS
+ 11 | GABRIEL MARCHI CAMPOS       | 2813/SP
+ 10 | FRANCIELE ALMEIDA DE ARAUJO | 1255/MS
+  7 | DIRCEU ALVES NETO           | 7225/MS
+(4 rows)
+
+                       nome                        |  valor  |                 nome
+---------------------------------------------------+---------+---------------------------------------
+ Participativo - Apartamento                       |  600.00 | BRUNO LOURENÇO PEREIRA
+ Participativo - Enfermaria                        |  500.00 | ARTHUR RICARDO SANT ANA DE SOUZA
+ Participativo - Enfermaria                        |  500.00 | CAYO HENRIQUE MERCADANTE VEIGA
+ Participativo - Enfermaria                        |  500.00 | DAVI FRANCA DE MELO
+ Participativo - Enfermaria                        |  500.00 | DIRCEU ALVES NETO
+ Participativo - Enfermaria                        |  500.00 | EMERSON ALVES FRANÇA HAMBRUCK CHECATO
+ Participativo - Enfermaria                        |  500.00 | FELIPE FLAMARINI
+ Participativo - Enfermaria                        |  500.00 | GABRIEL MARCHI CAMPOS
+ Participativo - Enfermaria                        |  500.00 | ISABELLE FIRMINO RANCAN
+ Participativo - Enfermaria                        |  500.00 | MATHEUS DA SILVA PAULA
+ Participativo - Enfermaria                        |  500.00 | NICHOLAS RICARDO SILVA ARAUJO
+ Participativo - Enfermaria                        |  500.00 | PEDRO SAMUEL SOARES SIMÃO
+ Participativo - Enfermaria                        |  500.00 | RAI FERNANDES DOS SANTOS
+ Participativo - Enfermaria                        |  500.00 | RARIANE DOS SANTOS PEREIRA
+ Sem Participação - Apartamento                    |  800.00 | ANA CARLA MARIA MARTINS
+ Sem Participação - Apartamento                    |  800.00 | CARLOS EDUARDO DE CAMPOS RODRIGUES
+ Sem Participação - Apartamento                    |  800.00 | CARLOS EDUARDO SANTOS MARTINS
+ Sem Participação - Apartamento                    |  800.00 | CLEITON DALASTRA
+ Sem Participação - Apartamento                    |  800.00 | KAUAN OLIVAL LOPES
+ Sem Participação - Apartamento                    |  800.00 | PATRICK CAUÃ GONÇALVES DIAS
+ Sem Participação - Apartamento                    |  800.00 | TAYNÁ ELLEN DE JESUS SOUZA
+ Sem Participação - Apartamento                    |  800.00 | UELTON OLIVEIRA DIAS
+ Sem Participação - Apartamento - Transporte Aéreo | 1500.00 | MARIA CLARA DE MELO
+ Sem Participação - Apartamento - Transporte Aéreo | 1500.00 | SAMUEL CARLOS SANTOS SILVA
+ Sem Participação - Apartamento - Transporte Aéreo | 1500.00 | TALITA DOS SANTOS CABREIRA
+ Sem Participação - Enfermaria                     |  620.00 | CAMILA EDUARDA RUIS FONSECA BALDO
+ Sem Participação - Enfermaria                     |  620.00 | FRANCIELE ALMEIDA DE ARAUJO
+ Sem Participação - Enfermaria                     |  620.00 | NATHAN DA SILVA BRITO
+ Sem Participação - Enfermaria                     |  620.00 | PAULO DE TARSO ARAUJO
+ Sem Participação - Enfermaria                     |  620.00 | VINÍCIUS DE OLIVEIRA MEDINA
+(30 rows)
+
+                nome                |     nome     |                       nome
+------------------------------------+--------------+---------------------------------------------------
+ BRUNO LOURENÇO PEREIRA             | Campo Grande | Participativo - Apartamento
+ CARLOS EDUARDO DE CAMPOS RODRIGUES | Três Lagoas  | Sem Participação - Apartamento
+ CLEITON DALASTRA                   | Andradina    | Sem Participação - Apartamento
+ DAVI FRANCA DE MELO                | Três Lagoas  | Participativo - Enfermaria
+ FRANCIELE ALMEIDA DE ARAUJO        | São Paulo    | Sem Participação - Enfermaria
+ ISABELLE FIRMINO RANCAN            | Três Lagoas  | Participativo - Enfermaria
+ TALITA DOS SANTOS CABREIRA         | Três Lagoas  | Sem Participação - Apartamento - Transporte Aéreo
+(7 rows)
+
+ id |     nome_cartorio      |    cidade
+----+------------------------+--------------
+  1 | Cartório Três Coracoes | Três Lagoas
+  2 | Cartório treslagoense  | Três Lagoas
+  3 | Santos Pereira         | Campo Grande
+  4 | 5º Ofício de Notas     | Campo Grande
+  5 | 7º Ofício              | Campo Grande
+  6 | Mathias e Rezende      | São Paulo
+  7 | Mathias e Rezende      | Andradina
+  8 | Mathias e Rezende      | Campo Grande
+(8 rows)
+
+ id |   nome_cartorio    |    cidade
+----+--------------------+--------------
+  3 | Santos Pereira     | Campo Grande
+  4 | 5º Ofício de Notas | Campo Grande
+  5 | 7º Ofício          | Campo Grande
+  8 | Mathias e Rezende  | Campo Grande
+(4 rows)
+
